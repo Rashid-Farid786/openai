@@ -11,12 +11,20 @@ class ComposerStaticInit6405029f70e23aeae5a145cd3210c21e
         array (
             'Orhanerday\\OpenAi\\' => 18,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Orhanerday\\OpenAi\\' => 
         array (
             0 => __DIR__ . '/..' . '/orhanerday/open-ai/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/src',
         ),
     );
 

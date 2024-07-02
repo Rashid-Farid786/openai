@@ -1,5 +1,10 @@
 {
     "require": {
         "orhanerday/open-ai": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "vendor/src/"
+        }
     }
 }

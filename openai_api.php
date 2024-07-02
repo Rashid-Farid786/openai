@@ -1,7 +1,10 @@
 <?php
-require __DIR__ . '/vendor/autoload.php'; 
+require __DIR__ . '/vendor/autoload.php';
+use App\Search;
 use Orhanerday\OpenAi\OpenAi;
-$open_ai_key="sk-proj-r7iq42v5eWvzvSJaKObiT3BlbkFJ9ONLKvgh5j0FRcpj0TnT";
+$Search=new Search();
+print_r($Search);die;
+$open_ai_key=$Search->lod;
 
 $open_ai = new OpenAi($open_ai_key);
 // $open_ai->setBaseURL("https://integrate.api.nvidia.com");
